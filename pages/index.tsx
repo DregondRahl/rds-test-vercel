@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { Button } from 'rds-tailwind'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
+          <Button title='RDS-BUTTON' onClick={() => alert('RDS ROCKS')}/>
         </h1>
 
         <p className={styles.description}>
