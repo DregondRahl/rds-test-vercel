@@ -21,6 +21,7 @@ export default function Home() {
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.tsx</code>
+          <Button title='OMG' onClick={() => alert('RDS OMG')}/>
         </p>
 
         <div className={styles.grid}>
